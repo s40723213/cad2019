@@ -51,6 +51,19 @@
 <p><span>4.到<a href="/edit_page">https://127.0.0.1:5000即可操控<br/></a></span></p>
 <p><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/uWwVvniiGxg" width="560"></iframe></span></p>
 <p><strong><span style="color: #000000;">3.</span></strong><strong><span>新增啟動與停止按鈕</span></strong></p>
+<p><span>1.開啟controls.html</span></p>
+<p><span>2.插入兩行</span></p>
+<p><span>開始指令&lt;td&gt;&lt;a class="pure-button pure-button-primary" href="/do/start"&gt;start&lt;/a&gt;</span></p>
+<p><span>停止指令&lt;/td&gt;&lt;a class="pure-button pure-button-primary" href="/do/stop"&gt;stop&lt;/a&gt;&lt;/td&gt;</span></p>
+<p><span>3.開啟controls.html確定有兩個按鈕後，開啟vrep_linefollower.py</span></p>
+<p><span>4.到中間加入</span></p>
+<p><span>if direction == 'start':</span></p>
+<p><span>vrep.simxStartSimulation(self.clientID, vrep.simx_opmode_oneshot)</span></p>
+<p><span>elif direction == 'stop':</span></p>
+<p><span>else :</span></p>
+<p><span>5.開啟測試</span></p>
+<p><span>影片操作</span></p>
+<p><span></span></p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/xm_OrIK1d6g" width="560"></iframe></p>
 <p><span style="color: #ff0000;">Week7</span></p>
 <p><span style="color: #ff0000;">Week8</span></p>
