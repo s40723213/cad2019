@@ -155,6 +155,40 @@ img.add_border {
           
         </header>
     <div id="tipue_search_content">Week << <a href='Week.html'>Previous</a> <a href='Week6-9.html'>Next</a> >> Week6-9<br /><h1>Week2-5</h1>
+<h4>Week 2<br/><strong>建立新的github倉儲</strong></h4>
+<p>1.到個人網站建立新的倉儲，並且clone到近端(要去mde.tw下載"2019fall可攜套件")。</p>
+<p>2.用git config --global user設定名稱、信箱和proxy，之後再用指令git submodule add 建立目錄取下子模型。</p>
+<p>3.最後再輸入python -m pip install flask cors即可。</p>
+<p>4.備註:要進入近端，必須先進入cmsimde，指令python wsgi.py方能使用。</p>
+<p></p>
+<p></p>
+<h4>Week3<br/><strong>Solvespace編譯</strong></h4>
+<p>1.Y:\portablegit\bin\sh.exe 改名為 sh_rename_for_solvespace.exe。</p>
+<p>2.更新github版本到2.13以上。</p>
+<p>3.git clone --recurse-submodules https://github.com/solvespace/solvespace.git solvespace</p>
+<p>4.編輯cmakelist，在713~714行之間加入#字號。</p>
+<p>5.把ibpng.dll.a 的編譯, 並改名為 libpng_static.a, 並放到編譯系統的 lib 目錄中。</p>
+<p>6.切路徑至build，再執行cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release，輸入mingw32-make。</p>
+<p>7.路徑切回solvespace原始碼，建立並進入Build目錄，再次執行cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release，輸入mingw32-make。</p>
+<p></p>
+<h4>Week4<br/><strong>自行更新網站，拍攝影片及嵌字幕的軟體</strong></h4>
+<p>1.影片: Share-X</p>
+<p></p>
+<p>2.字幕: Aegisub</p>
+<p></p>
+<p>3.整合影片和字幕: Arctime</p>
+<p>註:影片需有課程或自己的浮水印</p>
+<h4>Week5<br/>solvespace圖面繪製練習</h4>
+<p>到http://mde.tw/cad2019/content/Solvespace%20%E6%93%8D%E4%BD%9C.html</p>
+<p>選擇一個去畫，切記要與小組組員畫不同的。</p>
+<p></p>
+<p>快捷鍵</p>
+<p>(D)標註尺寸</p>
+<p>(Q)相同</p>
+<p>(H)水平共線</p>
+<p>(V)垂直共線</p>
+<p>(Shift+X)延伸</p>
+<p>(M)線中心點</p>
 <br />Week << <a href='Week.html'>Previous</a> <a href='Week6-9.html'>Next</a> >> Week6-9</div>
         
     <!-- footer -->
