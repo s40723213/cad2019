@@ -155,6 +155,50 @@ img.add_border {
           
         </header>
     <div id="tipue_search_content">Week2-5 << <a href='Week2-5.html'>Previous</a> <a href='Week10-14.html'>Next</a> >> Week10-14<br /><h1>Week6-9</h1>
+<h4><br/><span style="color: #ff0000;">Week6</span></h4>
+<p><br/><strong>1.參數化零組件繪製</strong></p>
+<p>利用slovespace繪製一台兩輪車</p>
+<p>操作影片</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/LRrM5BAdUos" width="560"></iframe></p>
+<p><strong>2.網際 V-rep 模型控制</strong></p>
+<p>1.下載V-rep和web_vrep2</p>
+<p>2.打開V-rep，打開兩輪車</p>
+<p>3.到web_vrep2的資料夾打開app.py -&gt;tool-&gt;go</p>
+<p>4.到https://127.0.0.1:5000即可操控</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/uWwVvniiGxg" width="560"></iframe></p>
+<p><strong>3.新增啟動與停止按鈕</strong></p>
+<p>1.開啟controls.html</p>
+<p>2.插入兩行</p>
+<p>開始指令&lt;td&gt;&lt;a class="pure-button pure-button-primary" href="/do/start"&gt;start&lt;/a&gt;</p>
+<p>停止指令&lt;/td&gt;&lt;a class="pure-button pure-button-primary" href="/do/stop"&gt;stop&lt;/a&gt;&lt;/td&gt;</p>
+<p>3.開啟controls.html確定有兩個按鈕後，開啟vrep_linefollower.py</p>
+<p>4.到中間加入</p>
+<p>if direction == 'start':</p>
+<p>vrep.simxStartSimulation(self.clientID, vrep.simx_opmode_oneshot)</p>
+<p>elif direction == 'stop':</p>
+<p>else :</p>
+<p>5.開啟測試</p>
+<p>影片操作</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/xm_OrIK1d6g" width="560"></iframe></p>
+<h4><span style="color: #ff0000;">Week7</span></h4>
+<p><strong>1.solvespace加入學號</strong></p>
+<p><strong>2.solvespace繪圖驗證</strong></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/GpzeJ_JITLA" width="560"></iframe></p>
+<h4><span style="color: #ff0000;">Week8</span></h4>
+<p><br/><strong>1.導入Webots</strong></p>
+<p>1.下載Webots_2019b_rev1.7z</p>
+<p>2.複製start_mdecourse.bat並更名start_mdecourse -webot.bat</p>
+<p>3.貼上指令path_webots=%Disk%:\Webots_2019b_rev1\msys64\mingw64\bin;%Disk%:\Webots_2019b_rev1\msys64\usr\bin</p>
+<p>4.按stop,開啟start_mdecourse -webot.bat</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/Ss_zRHTBSt0" width="560"></iframe></p>
+<p><strong>2.開啟網誌</strong></p>
+<p>1.開啟leo</p>
+<p>2.將config中的pelican.leo丟入leo edit裡面</p>
+<p>3.SITENAME改為 學號 cad2019</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/eujs8wrbmOs" width="560"></iframe></p>
+<h4><span style="color: #ff0000;">Week9</span></h4>
+<p><br/>期中影片</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/CGMWOnCzwx8" width="560"></iframe></p>
 <br />Week2-5 << <a href='Week2-5.html'>Previous</a> <a href='Week10-14.html'>Next</a> >> Week10-14</div>
         
     <!-- footer -->

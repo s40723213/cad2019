@@ -1,5 +1,90 @@
 <h1>Week</h1>
+<p>Week2-5</p>
+<p><span>Week6-9</span></p>
+<p><span>Week10-14</span></p>
+<p><span>Week15-18</span></p>
 <h2>Week2-5</h2>
+<h4>Week 2</h4>
+<p><br/><strong>建立新的github倉儲</strong></p>
+<p>1.到個人網站建立新的倉儲，並且clone到近端(要去mde.tw下載"2019fall可攜套件")。</p>
+<p>2.用git config --global user設定名稱、信箱和proxy，之後再用指令git submodule add 建立目錄取下子模型。</p>
+<p>3.最後再輸入python -m pip install flask cors即可。</p>
+<p>4.備註:要進入近端，必須先進入cmsimde，指令python wsgi.py方能使用。</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/yOlIkylomdQ" width="560"></iframe></p>
+<h4>Week3</h4>
+<p><br/><strong>Solvespace編譯</strong></p>
+<p>1.Y:\portablegit\bin\sh.exe 改名為 sh_rename_for_solvespace.exe。</p>
+<p>2.更新github版本到2.13以上。</p>
+<p>3.git clone --recurse-submodules https://github.com/solvespace/solvespace.git solvespace</p>
+<p>4.編輯cmakelist，在713~714行之間加入#字號。</p>
+<p>5.把ibpng.dll.a 的編譯, 並改名為 libpng_static.a, 並放到編譯系統的 lib 目錄中。</p>
+<p>6.切路徑至build，再執行cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release，輸入mingw32-make。</p>
+<p>7.路徑切回solvespace原始碼，建立並進入Build目錄，再次執行cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release，輸入mingw32-make。</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/eGer_gCUGWM" width="560"></iframe></p>
+<h4>Week4</h4>
+<p><br/><strong>自行更新網站，拍攝影片及嵌字幕的軟體</strong></p>
+<p>1.影片: Share-X</p>
+<p></p>
+<p>2.字幕: Aegisub</p>
+<p></p>
+<p>3.整合影片和字幕: Arctime</p>
+<p>註:影片需有課程或自己的浮水印</p>
+<h4>Week5</h4>
+<p><br/><strong>solvespace圖面繪製練習</strong></p>
+<p>到http://mde.tw/cad2019/content/Solvespace%20%E6%93%8D%E4%BD%9C.html</p>
+<p>選擇一個去畫，切記要與小組組員畫不同的。</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/z5Q0qkXCH4Y" width="560"></iframe></p>
+<p>快捷鍵</p>
+<p>(D)標註尺寸</p>
+<p>(Q)相同</p>
+<p>(H)水平共線</p>
+<p>(V)垂直共線</p>
+<p>(Shift+X)延伸</p>
+<p>(M)線中心點</p>
 <h2>Week6-9</h2>
+<h4><br/>Week6</h4>
+<p><br/><strong>1.參數化零組件繪製</strong></p>
+<p>利用slovespace繪製一台兩輪車</p>
+<p>操作影片</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/LRrM5BAdUos" width="560"></iframe></p>
+<p><strong>2.網際 V-rep 模型控制</strong></p>
+<p>1.下載V-rep和web_vrep2</p>
+<p>2.打開V-rep，打開兩輪車</p>
+<p>3.到web_vrep2的資料夾打開app.py -&gt;tool-&gt;go</p>
+<p>4.到https://127.0.0.1:5000即可操控</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/uWwVvniiGxg" width="560"></iframe></p>
+<p><strong>3.新增啟動與停止按鈕</strong></p>
+<p>1.開啟controls.html</p>
+<p>2.插入兩行</p>
+<p>開始指令&lt;td&gt;&lt;a class="pure-button pure-button-primary" href="/do/start"&gt;start&lt;/a&gt;</p>
+<p>停止指令&lt;/td&gt;&lt;a class="pure-button pure-button-primary" href="/do/stop"&gt;stop&lt;/a&gt;&lt;/td&gt;</p>
+<p>3.開啟controls.html確定有兩個按鈕後，開啟vrep_linefollower.py</p>
+<p>4.到中間加入</p>
+<p>if direction == 'start':</p>
+<p>vrep.simxStartSimulation(self.clientID, vrep.simx_opmode_oneshot)</p>
+<p>elif direction == 'stop':</p>
+<p>else :</p>
+<p>5.開啟測試</p>
+<p>影片操作</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/xm_OrIK1d6g" width="560"></iframe></p>
+<h4>Week7</h4>
+<p><strong>1.solvespace加入學號</strong></p>
+<p><strong>2.solvespace繪圖驗證</strong></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/GpzeJ_JITLA" width="560"></iframe></p>
+<h4>Week8</h4>
+<p><br/><strong>1.導入Webots</strong></p>
+<p>1.下載Webots_2019b_rev1.7z</p>
+<p>2.複製start_mdecourse.bat並更名start_mdecourse -webot.bat</p>
+<p>3.貼上指令path_webots=%Disk%:\Webots_2019b_rev1\msys64\mingw64\bin;%Disk%:\Webots_2019b_rev1\msys64\usr\bin</p>
+<p>4.按stop,開啟start_mdecourse -webot.bat</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/Ss_zRHTBSt0" width="560"></iframe></p>
+<p><strong>2.開啟網誌</strong></p>
+<p>1.開啟leo</p>
+<p>2.將config中的pelican.leo丟入leo edit裡面</p>
+<p>3.SITENAME改為 學號 cad2019</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/eujs8wrbmOs" width="560"></iframe></p>
+<h4>Week9</h4>
+<p><br/>期中影片</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/CGMWOnCzwx8" width="560"></iframe></p>
 <h2>Week10-14</h2>
 <h2>Week15-18</h2>
