@@ -376,10 +376,10 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20200109232308.2">## [WEEK2~5](https://s40723213.github.io/cad2019/content/Week2-5.html)
 
-*Week 2   建立新的github倉儲
-*Week 3   Solvespace編譯
-*Week 4   自行更新網站，拍攝影片及嵌字幕的軟體
-*Week 5   solvespace圖面繪製練習
+* Week 2   建立新的github倉儲
+* Week 3   Solvespace編譯
+* Week 4   自行更新網站，拍攝影片及嵌字幕的軟體
+* Week 5   solvespace圖面繪製練習
 </t>
 <t tx="leo.20200110123013.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -420,6 +420,7 @@ solvespace繪圖驗證
 <t tx="leo.20200110124201.2">## [Week8](https://s40723213.github.io/cad2019/content/Week6-9.html)
 
 1.建立網誌
+
 2.導入Webots使用ssh對github連線
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Ss_zRHTBSt0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20200110124452.1">&lt;section data-markdown&gt;
