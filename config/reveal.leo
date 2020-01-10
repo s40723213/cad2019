@@ -374,7 +374,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200109232308.2">##[WEEK2~5](https://s40723213.github.io/cad2019/content/Week2-5.html)
+<t tx="leo.20200109232308.2">## [WEEK2~5](https://s40723213.github.io/cad2019/content/Week2-5.html)
 
 *Week 2   建立新的github倉儲
 *Week 3   Solvespace編譯
@@ -390,7 +390,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200110123013.2">##[Week6](https://s40723213.github.io/cad2019/content/Week6-9.html)
+<t tx="leo.20200110123013.2">## [Week6](https://s40723213.github.io/cad2019/content/Week6-9.html)
 
 畫模型車
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/LRrM5BAdUos" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
@@ -404,7 +404,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200110124050.2">##[Week7](https://s40723213.github.io/cad2019/content/Week6-9.html)
+<t tx="leo.20200110124050.2">## [Week7](https://s40723213.github.io/cad2019/content/Week6-9.html)
 
 solvespace繪圖驗證
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/GpzeJ_JITLA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
@@ -417,7 +417,7 @@ solvespace繪圖驗證
 
 						
 </t>
-<t tx="leo.20200110124201.2">##[Week8](https://s40723213.github.io/cad2019/content/Week6-9.html)
+<t tx="leo.20200110124201.2">## [Week8](https://s40723213.github.io/cad2019/content/Week6-9.html)
 
 1.建立網誌
 2.導入Webots使用ssh對github連線
@@ -431,7 +431,7 @@ solvespace繪圖驗證
 
 						
 </t>
-<t tx="leo.20200110124452.2">##[Week9](https://s40723213.github.io/cad2019/content/Week6-9.html)
+<t tx="leo.20200110124452.2">## [Week9](https://s40723213.github.io/cad2019/content/Week6-9.html)
 
 期中考
 &lt;iframe width="556" height="310" src="https://www.youtube.com/embed/CGMWOnCzwx8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
@@ -444,7 +444,7 @@ solvespace繪圖驗證
 
 						
 </t>
-<t tx="leo.20200110124940.2">##Week1
+<t tx="leo.20200110124940.2">## Week1
 
 中秋烤肉</t>
 <t tx="leo.20200110125049.1">&lt;section data-markdown&gt;
@@ -456,7 +456,7 @@ solvespace繪圖驗證
 
 						
 </t>
-<t tx="leo.20200110125049.2">##Week10
+<t tx="leo.20200110125049.2">## Week10
 
 亂數分組 [CAD2019bg4](https://s40723204.github.io/cad2019bg4/content/index.html)
 </t>
@@ -469,7 +469,7 @@ solvespace繪圖驗證
 
 						
 </t>
-<t tx="leo.20200110125252.2">##Week11
+<t tx="leo.20200110125252.2">## Week11
 
 運動會
 </t>
@@ -482,7 +482,7 @@ solvespace繪圖驗證
 
 						
 </t>
-<t tx="leo.20200110125336.2">##Week12
+<t tx="leo.20200110125336.2">## Week12
 
 組員個別整理電子書內容及webots 所有 tutorial
 
@@ -496,7 +496,7 @@ solvespace繪圖驗證
 
 						
 </t>
-<t tx="leo.20200110125611.2">##Week13
+<t tx="leo.20200110125611.2">## Week13
 
 操作webot tutorial - 1
 &lt;iframe width="556" height="310" src="https://www.youtube.com/embed/x6BcOgigeTA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
@@ -509,7 +509,7 @@ solvespace繪圖驗證
 
 						
 </t>
-<t tx="leo.20200110125826.2">##Week14
+<t tx="leo.20200110125826.2">## Week14
 
 操作webot tutorial - 2
 </t>
@@ -522,7 +522,7 @@ solvespace繪圖驗證
 
 						
 </t>
-<t tx="leo.20200110125950.2">##Week15
+<t tx="leo.20200110125950.2">## Week15
 
 個人學習成果回報
 &lt;iframe width="1280" height="693" src="https://www.youtube.com/embed/su413LRlTi4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
@@ -536,7 +536,7 @@ solvespace繪圖驗證
 
 						
 </t>
-<t tx="leo.20200110130214.2">##Week16
+<t tx="leo.20200110130214.2">## Week16
 
 使用solvespace畫出越野車 將越野車導入webots和v-rep3
 &lt;iframe width="556" height="310" src="https://www.youtube.com/embed/myNxnQNvjyM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
@@ -550,7 +550,7 @@ solvespace繪圖驗證
 
 						
 </t>
-<t tx="leo.20200110130306.2">##Week17
+<t tx="leo.20200110130306.2">## Week17
 
 分工翻譯Building a clean model tutorial和Webots User Guide
 &lt;iframe width="1280" height="693" src="https://www.youtube.com/embed/uMIY6tqvORg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
